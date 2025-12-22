@@ -177,7 +177,7 @@ public class ConfigTpv {
             String statusseller=objtpv.getString("statusseller").toString();
             String emailaddress=objtpv.getString("emailaddress").toString();
             String phonenumber=objtpv.getString("phonenumber").toString();
-            String propina=objtpv.optString("propina","0");
+            String propina=objtpv.optString("propina","1");
 
             _statusseller=Integer.parseInt("0");
 
